@@ -1,10 +1,11 @@
-
+import styled, { ThemeProvider } from "styled-components";
+import { darkTheme } from "./utils/Theam"
 
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={darkTheme}>
       Hello
-    </div>
+    </ThemeProvider>
   );
 }
 
